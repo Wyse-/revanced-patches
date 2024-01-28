@@ -1,3 +1,10 @@
+# 1.0.0 (2024-01-28)
+
+
+### Features
+
+* github actions testing, will it release? ([46cc930](https://github.com/Wyse-/revanced-patches/commit/46cc930f9cdb2d1c827dc37b9938ce0b97376992))
+
 # 1.0.0 (2024-01-26)
 
 
