@@ -12,6 +12,6 @@ import app.revanced.patcher.patch.annotation.Patch
 @Suppress("unused")
 object DummyPatch : BytecodePatch() {
     override fun execute(context: BytecodeContext) {
-        println("Hello, World!!");
+        println("Hello, World!");
     }
 }
