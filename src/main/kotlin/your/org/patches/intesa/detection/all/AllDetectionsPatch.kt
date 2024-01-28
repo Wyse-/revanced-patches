@@ -10,9 +10,7 @@ import app.revanced.util.exception
 @Patch(
     name = "Remove all detections",
     description = "Removes all checks (certificate, debug key signature, emulator, installation origin).",
-    compatiblePackages = [
-        CompatiblePackage("com.latuabancaperandroid"),
-    ],
+    compatiblePackages = [CompatiblePackage("com.latuabancaperandroid")]
 )
 @Suppress("unused")
 object AllDetectionsPatch : BytecodePatch(
