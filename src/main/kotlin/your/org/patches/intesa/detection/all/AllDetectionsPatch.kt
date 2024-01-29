@@ -5,7 +5,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
 import app.revanced.patcher.extensions.InstructionExtensions.replaceInstructions
-import app.revanced.util.exception
+import app.revanced.patcher.patch.PatchException
 
 @Patch(
     name = "Remove all detections",
@@ -21,5 +21,5 @@ object AllDetectionsPatch : BytecodePatch(
         """
             return-void
         """
-    ) ?: throw AllDetectionsPatch.exception
+    ) ?: throw PatchException("Failed to resolve ${this.javaClass.simpleName}")
 }
