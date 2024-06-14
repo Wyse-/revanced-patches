@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/Wyse-/revanced-patches/compare/v1.1.0...v1.2.0) (2024-06-14)
+
+
+### Features
+
+* added isybank app package id ([bba9734](https://github.com/Wyse-/revanced-patches/commit/bba9734bb515bd0e02765b2cc5473a9851235012))
+
 # [1.1.0](https://github.com/Wyse-/revanced-patches/compare/v1.0.0...v1.1.0) (2024-01-29)
 
 
