@@ -1,10 +1,11 @@
 package wyse.patches.isybank
 
+import app.revanced.util.exception
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
 import app.revanced.patcher.patch.annotation.Patch
-import app.revanced.patcher.extensions.InstructionExtensions.replaceInstructions
+import app.revanced.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.revanced.patcher.patch.PatchException
 
 @Patch(
