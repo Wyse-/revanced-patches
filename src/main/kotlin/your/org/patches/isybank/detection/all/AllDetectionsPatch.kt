@@ -19,6 +19,6 @@ object AllDetectionsPatch : BytecodePatch(
     override fun execute(context: BytecodeContext) =
         setOf(DexguardFingerprintA, DexguardFingerprintB, TamperCheckFingerprintA, TamperCheckFingerprintB).forEach { fingerprint ->
             fingerprint.result?.mutableMethod?.replaceInstruction(0, "return-void")
-                ? : throw PatchException("Failed to resolve ${this.javaClass.simpleName}"
+                ?: throw PatchException("Failed to resolve ${this.javaClass.simpleName}"
         }
 }
