@@ -1,4 +1,4 @@
-package your.org.patches.example
+package wyse.patches.intesa
 
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.patch.BytecodePatch
