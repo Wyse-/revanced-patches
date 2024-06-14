@@ -1,3 +1,17 @@
+## [1.2.1](https://github.com/Wyse-/revanced-patches/compare/v1.2.0...v1.2.1) (2024-06-14)
+
+
+### Bug Fixes
+
+* added isybank patch imports ([ead6b50](https://github.com/Wyse-/revanced-patches/commit/ead6b50ed72e3606f17d907cd1d5a14899e9495e))
+* corrected isybank fingerprints class names ([2cd3481](https://github.com/Wyse-/revanced-patches/commit/2cd348197105a70b4e2bd155f2a7171bb3cb54b4))
+* differentiated patch package names ([c2c43cf](https://github.com/Wyse-/revanced-patches/commit/c2c43cfa6a329d3e95a15199c1c0b4b8e40b87c0))
+* escape character in isybank patches ([1701f83](https://github.com/Wyse-/revanced-patches/commit/1701f835d0286f865884861f965582c1be527cac))
+* fixed isybank patch imports, again ([ec397d9](https://github.com/Wyse-/revanced-patches/commit/ec397d931f8eada2cd997eadd225f0c874795447))
+* fixed isybank patch syntax ([b750a4e](https://github.com/Wyse-/revanced-patches/commit/b750a4e938c5bc99baa7733886127684fb1c5d60))
+* fixed isybank patch syntax, again ([e821af4](https://github.com/Wyse-/revanced-patches/commit/e821af477859f0b68ba8f0dab715889b0714de42))
+* split isybank patch to its own, added isybank patching fingerprints ([a735066](https://github.com/Wyse-/revanced-patches/commit/a735066ffb9f840777c4043c3a06ee5c914ba9d2))
+
 # [1.2.0](https://github.com/Wyse-/revanced-patches/compare/v1.1.0...v1.2.0) (2024-06-14)
 
 
