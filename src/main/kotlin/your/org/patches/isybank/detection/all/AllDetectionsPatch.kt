@@ -1,6 +1,5 @@
 package wyse.patches.isybank
 
-import app.revanced.util.exception
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotation.CompatiblePackage
@@ -20,6 +19,6 @@ object AllDetectionsPatch : BytecodePatch(
     override fun execute(context: BytecodeContext) =
         setOf(DexguardFingerprintA, DexguardFingerprintB, TamperCheckFingerprintA, TamperCheckFingerprintB).forEach { fingerprint ->
             fingerprint.result?.mutableMethod?.replaceInstruction(0, "return-void")
-                ?: throw fingerprint.exception
+                ? : throw PatchException("Failed to resolve ${this.javaClass.simpleName}"
         }
 }
